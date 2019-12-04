@@ -64,3 +64,46 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*  Start of Menu Section */
+.menu-container {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.menu-container ul li {
+  display: inline-block;
+  margin: 50px;
+}
+.menu-container ul li a {
+  text-decoration: none;
+  color: black;
+}
+/*  End of Menu Section */
+
+/*  Start of Jumbo Section */
+.jumbo-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.jumbo-container h1 {
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+  font-size: 70px;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.jumbo-container button {
+  width: 125px;
+	height: 50px;
+	position: relative;
+}
+.jumbo-container .logo{
+  position: relative;
+}
+
+
+/*  End of Jumbo Section */
